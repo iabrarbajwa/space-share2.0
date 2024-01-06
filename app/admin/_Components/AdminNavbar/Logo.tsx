@@ -7,17 +7,16 @@ import { useRouter } from "next/navigation"
 export const Logo = () => {
     const router = useRouter();
     return (
-        <Link href="/">
+        <Link href="/admin/dashboard">
             <div className="flex items-center gap-x-2 cursor-pointer">
                 <Image
-                    // onClick={() => router.push('/')}
                     src="/images/logo.svg"
                     alt="Logo"
                     height={30}
                     width={30}
                 />
                 <p className="text-xl font-bold text-zinc-950 pb-1">
-                    SpaceShare
+                    SpaceShare Administrator
                 </p>
             </div>
         </Link>
