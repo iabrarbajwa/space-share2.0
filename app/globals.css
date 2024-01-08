@@ -32,7 +32,7 @@ body,
     --radius: 0.5rem;
   }
  
-  .dark {
+  /* .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
     --card: 240 10% 3.9%;
@@ -52,7 +52,7 @@ body,
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
-  }
+  } */
 }
  
 @layer base {

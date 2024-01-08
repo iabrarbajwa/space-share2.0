@@ -48,7 +48,7 @@ const AdminNavbarHelper: React.FC<AdminNavbarHelperProps> = ({ isAdmin }) => {
                                         : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"
                                         }`}
                                 >
-                                    <Link href="/all-users">
+                                    <Link href="/admin/all-users">
                                         <div className="flex items-center space-x-2">
                                             <span className="text-xl"><HiOutlineUsers /></span>
                                             <span>All Users</span>
@@ -128,7 +128,7 @@ const AdminNavbarHelper: React.FC<AdminNavbarHelperProps> = ({ isAdmin }) => {
                                     {isAdmin && (
                                         <nav className="grid gap-y-8">
                                             <Link
-                                                href="/"
+                                                href="/admin/dashboard"
                                                 className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                                                 onClick={() => setMobileMenuOpen(false)}
                                             >
@@ -138,7 +138,7 @@ const AdminNavbarHelper: React.FC<AdminNavbarHelperProps> = ({ isAdmin }) => {
                                                 </span>
                                             </Link>
                                             <Link
-                                                href="/all-users"
+                                                href="/admin/all-users"
                                                 className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                                                 onClick={() => setMobileMenuOpen(false)}
                                             >

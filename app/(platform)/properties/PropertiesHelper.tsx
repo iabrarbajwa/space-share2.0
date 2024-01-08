@@ -51,7 +51,7 @@ const PropertiesHelper: React.FC<PropertiesHelperProps> = ({
                         actionId={space.id}
                         onAction={onCancel}
                         disabled={deletingId === space.id}
-                        actionLabel="Delete space"
+                        actionLabel="Manage space"
                         currentUser={currentUser}
                     />
                 ))}
